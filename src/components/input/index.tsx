@@ -30,7 +30,7 @@ export const Input = forwardRef((InputProps: InputProps, ref: LegacyRef<TextInpu
       {title && <Text style={[style.titleInput, labelStyle]}>
         {title}
       </Text>}
-      <View style={[style.boxInput, {height: height ? height : 40}]}>
+      <View style={[style.boxInput, {height: height ? height : 40, padding: 5}]}>
         {IconLeft && iconLeftName && (
           <TouchableOpacity style={{ width: "100%" }}>
             <IconLeft name={iconLeftName as any} size={20} color={themes.colors.gray} style={{ width: "100%", paddingHorizontal: 6 }} />

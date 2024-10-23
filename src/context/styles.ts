@@ -28,5 +28,10 @@ export const style = StyleSheet.create({
     label: {
       fontWeight: "bold",
       color: "000"
+    },
+    flag: {
+      flexDirection: "row",
+      gap: 10,
+      marginTop: 10
     }
 })
